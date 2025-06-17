@@ -223,9 +223,10 @@ button {
     gap: 72px;
 }
 
-/* .features-item {
-    flex-basis: calc((100% - 72px) / 4);
-} */
+.features-item {
+    /* flex-basis: calc((100% - 72px) / 4); */
+    width: 100%;
+}
 
 .wrap-icon {
     /* display: flex;
@@ -816,3 +817,20 @@ border: none;
 fill: #f4f4fd;
 }
 
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+    .features-list {
+flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+    }
+    .features-item {
+    flex-basis: calc((100% - 24px) / 2);
+    }
+    .features-subtitle {
+        text-align: left;
+    }
+}
