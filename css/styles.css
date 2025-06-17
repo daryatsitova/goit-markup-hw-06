@@ -225,7 +225,7 @@ button {
 
 .features-item {
     /* flex-basis: calc((100% - 72px) / 4); */
-    width: 100%;
+flex-basis: 100%;
 }
 
 .wrap-icon {
