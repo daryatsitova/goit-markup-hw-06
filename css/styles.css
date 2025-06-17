@@ -885,4 +885,11 @@ flex-direction: row;
         line-height: 1.2;
     }
 
+    .team-section {
+        padding: 120px 0;
+    }
+
+    .team-member {
+        flex-basis: calc((100% - 72px) / 4);
+    }
 }
