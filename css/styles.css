@@ -1158,6 +1158,7 @@ margin: 0;
         flex-direction: row;
         gap: 40px;
         align-items: center;
+        padding: 0;
     }
 
     .contacts-link {
