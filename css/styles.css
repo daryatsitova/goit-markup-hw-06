@@ -1139,6 +1139,7 @@ fill: #f4f4fd;
         width: 408px;
         min-height: 584px;
     }
+}
 
 @media screen and (min-width: 1158px) {
     .container {
@@ -1226,6 +1227,27 @@ fill: #f4f4fd;
             width: calc((100% - 48px) / 3);
         }
 
-        
+        .page-footer {
+            padding: 100px 0;
+        }
 
+        .footer-container{
+            align-items: baseline;
+            flex-wrap: nowrap;
+            color-scheme: 0;
+                justify-content:baseline;
+        }
+        .footer-left {
+            max-width: 264px;
+            margin-right: 120px;
+            margin-left: 0;
+        }
+
+        .footer-text{
+            max-width: 264px;
+        }
+
+.form_content {
+    margin-left: 80px;
+}
 }
