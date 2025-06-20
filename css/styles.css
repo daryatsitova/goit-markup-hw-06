@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 48px;
 }
 
-.mob-menu-contacts-item {}
+/* .mob-menu-contacts-item {} */
 
 .mob-menu-contacts-link {
     font-weight: 500;
@@ -627,9 +627,17 @@ flex-basis: 100%;
 
 /* footer section  */
 
+.footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 .page-footer{
     background: #2e2f42;
-    padding: 100px 0;
+    /* padding: 100px 0; */
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .footer-logo-link {
@@ -642,6 +650,7 @@ flex-basis: 100%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-align: center;
 }
 
 .footer-logo-accent {
@@ -653,7 +662,9 @@ flex-basis: 100%;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-        max-width: 264px;
+        /* max-width: 264px; */
+        max-width: 288px;
+        text-align: left;
 }
 
 .footer-icon-text {
@@ -663,21 +674,29 @@ flex-basis: 100%;
         letter-spacing: 0.02em;
         color: #fff;
         margin-bottom: 16px;
+        /* text-align: left; */
+        text-align: center;
 }
 
-.footer-container {
+/* .footer-container {
     display: flex;
     align-items: baseline;
-}
+} */
 
 .footer-left {
-    max-width: 264px;
-    margin-right: 120px;
+    /* max-width: 264px; */
+    max-width: 288px;
+    /* margin-right: 120px; */
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 72px;
 }
 
 .wrap-footer-icons {
+justify-content: center ;
     display: flex;
     gap: 16px;
+    margin-bottom: 72px;
 }
 
 .wrap-footer-icons .social-icon-link:hover,
@@ -686,7 +705,7 @@ flex-basis: 100%;
 }
 
 .form_content {
-    margin-left: 80px;
+    /* margin-left: 80px; */
 }
 
 .form_text {
@@ -696,15 +715,17 @@ flex-basis: 100%;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    text-align: center;
 }
 
 .form {
-    display: flex;
-    gap: 24px;
+    /* display: flex; */
+    /* gap: 24px; */
 }
 
 .input_e-mail {
-    width: 264px;
+    /* width: 264px; */
+    width: 100%;
     height: 40px;
     border: 1px solid #ffffff;
     background-color: transparent;
@@ -715,6 +736,7 @@ flex-basis: 100%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
+    margin-bottom: 16px;
 }
 
 input::placeholder {
@@ -738,6 +760,7 @@ input::placeholder {
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 0 auto;
 }
 
 .form_btn:hover,
