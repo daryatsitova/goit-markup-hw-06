@@ -1099,11 +1099,46 @@ fill: #f4f4fd;
         width: calc((100% - 24px) / 2);
     }
 
+  .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      column-gap: 24px;
+      row-gap: 72px;
+      justify-content: flex-start;
+      align-items: flex-start;
+      padding-left: 108px;
+      padding-right: 164px;
+  }
+
+.footer-left {
+    text-align: left;
+    width: 264px;
+    margin-bottom: 0;
+}
+
+   .footer-icon-text {
+    text-align: left;
+   }
+
+   .form_text {
+    text-align: left;
+   }
+
+   .form {
+    display: flex;
+    flex-direction: row;
+   }
+
+   .input_e-mail {
+    width: 264px;
+    margin-right: 24px;
+   }
+  
     .modal {
         width: 408px;
         min-height: 584px;
     }
-}
 
 @media screen and (min-width: 1158px) {
     .container {
