@@ -1043,7 +1043,7 @@ fill: #f4f4fd;
 }
 
     .hero-section {
-    padding: 112px 136px;
+    padding: 112px 0;
     background-image: linear-gradient(
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
@@ -1078,12 +1078,11 @@ fill: #f4f4fd;
     }
 
     .team-container{
-        max-width: 552px;
+        max-width: 584px;
+        padding-left: 0;
+        padding-right: 0;
     }
-    .team-section{
-        padding-left: 108px;
-        padding-right: 108px;
-    }
+
     .team-list {
         flex-direction: row;
         flex-wrap: wrap;
@@ -1109,13 +1108,18 @@ fill: #f4f4fd;
       row-gap: 72px;
       justify-content: flex-start;
       align-items: flex-start;
-      padding-left: 108px;
-      padding-right: 164px;
+padding-left: 0;
+padding-right: 0;
+      max-width: 584px;
   }
 
 .footer-left {
     text-align: left;
     width: 264px;
+margin: 0;
+}
+
+.footer-icon {
     margin-bottom: 0;
 }
 
