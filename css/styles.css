@@ -1234,8 +1234,7 @@ fill: #f4f4fd;
         .footer-container{
             align-items: baseline;
             flex-wrap: nowrap;
-            color-scheme: 0;
-                justify-content:baseline;
+       column-gap: 0;
         }
         .footer-left {
             max-width: 264px;
@@ -1245,6 +1244,7 @@ fill: #f4f4fd;
 
         .footer-text{
             max-width: 264px;
+            margin-left: 0;
         }
 
 .form_content {
