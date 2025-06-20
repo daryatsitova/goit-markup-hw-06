@@ -156,8 +156,19 @@ h1, h2, h3, h4, h5, h6, p {
     position: fixed;
     top: 0;
     z-index: 1;
-    padding-top: 72px;
+    padding-top: 24px;
     padding-right: 24px;
+    padding-bottom: 40px;
+    padding-left: 16px;
+    /* padding-top: 72px;
+    padding-right: 24px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+    opacity: 0;
+    pointer-events: 0;
+    visibility: hidden;
 }
 
 .mob-menu .container {
@@ -761,15 +772,18 @@ fill: #fff;
 }
 
 .modal {
-    width: 408px;
-    min-height: 584px;
+    /* width: 408px; */
+    width: 288px;
+    /* min-height: 584px; */
+    min-height: 623px;
     border-radius: 4px;
     background-color: #fcfcfc;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-        padding: 72px 24px 24px 24px;
+        /* padding: 72px 24px 24px 24px; */
+        padding: 72px 16px 24px 16px;
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
             0px 1px 3px rgba(0, 0, 0, 0.12),
             0px 2px 1px rgba(0, 0, 0, 0.2);
